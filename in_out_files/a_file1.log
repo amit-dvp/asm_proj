@@ -1,0 +1,633 @@
+
+
+----------------------------------------------------------
+          log file with all data analysis results         
+                 of in_out_files/a_file1.log file processing                 
+----------------------------------------------------------
+
+------------------ PRINT CPU INSTR. ITEMS ---------------
+--------------------------
+CPU instruction item:
+	start_addr: 100
+	cmd_name: mov
+	label_name: MAIN
+	size_in_words: 4
+	is_valid: 1
+	Status:
+		cmd_label_found: 1
+		params_num: 2
+		no_params_found: 0
+		param1_found: 1
+		param2_found: 1
+		dest_addresing: 1
+		src_addresing: 2
+		opcode: 0
+	Param1:
+		param_is_matrx: 1
+		mat_label: M1
+		reg1_num: 2
+		reg2_num: 7
+		mat_label_defined: 1
+		mat_label_syntax_valid: 1
+		brackets_valid: 1
+		reg1_name_valid: 1
+		reg2_name_valid: 1
+	Param2:
+		param_is_label: 1
+		label_name: W
+		label_addr: -5
+		label_addr_defined: 0
+		label_length_valid: 1
+		label_param_syntax_valid: 1
+	Code data:
+		 code word 1: 
+			exist: 1
+			E R A: 0
+			code value: 0X24
+			IC addr : 100
+		 code word 2: 
+			exist: 1
+			E R A: 2
+			code value: 0X216
+			IC addr : 101
+		 code word 3: 
+			exist: 1
+			E R A: 0
+			 code value: 0X9C
+			 IC addr : 102
+		 code word 4: 
+			exist: 1
+			E R A: 2
+			code value: 0X2
+			IC addr : 103
+		 code word 5: 
+			exist: 0
+			E R A: 0
+			code value: 0X0
+			IC addr : 0
+--------------------------
+CPU instruction item:
+	start_addr: 104
+	cmd_name: add
+	label_name: (null)
+	size_in_words: 3
+	is_valid: 1
+	Status:
+		cmd_label_found: 0
+		params_num: 2
+		no_params_found: 0
+		param1_found: 1
+		param2_found: 1
+		dest_addresing: 1
+		src_addresing: 3
+		opcode: 2
+	Param1:
+		param_is_reg_name: 1
+		reg_num: 2
+		reg_num_is_valid: 1
+		reg_syntax_is_valid: 1
+	Param2:
+		param_is_label: 1
+		label_name: STR
+		label_addr: -5
+		label_addr_defined: 0
+		label_length_valid: 1
+		label_param_syntax_valid: 1
+	Code data:
+		 code word 1: 
+			exist: 1
+			E R A: 0
+			code value: 0XB4
+			IC addr : 104
+		 code word 2: 
+			exist: 1
+			E R A: 0
+			code value: 0X80
+			IC addr : 105
+		 code word 3: 
+			exist: 1
+			E R A: 2
+			 code value: 0X1EA
+			 IC addr : 106
+		 code word 4: 
+			exist: 0
+			E R A: 0
+			code value: 0X0
+			IC addr : 0
+		 code word 5: 
+			exist: 0
+			E R A: 0
+			code value: 0X0
+			IC addr : 0
+--------------------------
+CPU instruction item:
+	start_addr: 107
+	cmd_name: jmp
+	label_name: LOOP
+	size_in_words: 2
+	is_valid: 1
+	Status:
+		cmd_label_found: 1
+		params_num: 1
+		no_params_found: 0
+		param1_found: 0
+		param2_found: 1
+		dest_addresing: 1
+		src_addresing: 0
+		opcode: 9
+	Param1:
+		param1 is not defined 
+	Param2:
+		param_is_label: 1
+		label_name: W
+		label_addr: -5
+		label_addr_defined: 0
+		label_length_valid: 1
+		label_param_syntax_valid: 1
+	Code data:
+		 code word 1: 
+			exist: 1
+			E R A: 0
+			code value: 0X244
+			IC addr : 107
+		 code word 2: 
+			exist: 1
+			E R A: 2
+			code value: 0X2
+			IC addr : 108
+		 code word 3: 
+			exist: 0
+			E R A: 0
+			 code value: 0X0
+			 IC addr : 0
+		 code word 4: 
+			exist: 0
+			E R A: 0
+			code value: 0X0
+			IC addr : 0
+		 code word 5: 
+			exist: 0
+			E R A: 0
+			code value: 0X0
+			IC addr : 0
+--------------------------
+CPU instruction item:
+	start_addr: 109
+	cmd_name: prn
+	label_name: (null)
+	size_in_words: 2
+	is_valid: 1
+	Status:
+		cmd_label_found: 0
+		params_num: 1
+		no_params_found: 0
+		param1_found: 0
+		param2_found: 1
+		dest_addresing: 0
+		src_addresing: 0
+		opcode: 13
+	Param1:
+		param1 is not defined 
+	Param2:
+		param_is_number: 1
+		num: -5
+		num_is_valid: 1
+	Code data:
+		 code word 1: 
+			exist: 1
+			E R A: 0
+			code value: 0X340
+			IC addr : 109
+		 code word 2: 
+			exist: 1
+			E R A: 0
+			code value: 0X3EC
+			IC addr : 110
+		 code word 3: 
+			exist: 0
+			E R A: 0
+			 code value: 0X0
+			 IC addr : 0
+		 code word 4: 
+			exist: 0
+			E R A: 0
+			code value: 0X0
+			IC addr : 0
+		 code word 5: 
+			exist: 0
+			E R A: 0
+			code value: 0X0
+			IC addr : 0
+--------------------------
+CPU instruction item:
+	start_addr: 111
+	cmd_name: sub
+	label_name: (null)
+	size_in_words: 2
+	is_valid: 1
+	Status:
+		cmd_label_found: 0
+		params_num: 2
+		no_params_found: 0
+		param1_found: 1
+		param2_found: 1
+		dest_addresing: 3
+		src_addresing: 3
+		opcode: 3
+	Param1:
+		param_is_reg_name: 1
+		reg_num: 1
+		reg_num_is_valid: 1
+		reg_syntax_is_valid: 1
+	Param2:
+		param_is_reg_name: 1
+		reg_num: 4
+		reg_num_is_valid: 1
+		reg_syntax_is_valid: 1
+	Code data:
+		 code word 1: 
+			exist: 1
+			E R A: 0
+			code value: 0XFC
+			IC addr : 111
+		 code word 2: 
+			exist: 0
+			E R A: 0
+			code value: 0X0
+			IC addr : 0
+		 code word 3: 
+			exist: 0
+			E R A: 0
+			 code value: 0X0
+			 IC addr : 0
+		 code word 4: 
+			exist: 0
+			E R A: 0
+			code value: 0X0
+			IC addr : 0
+		 code word 5: 
+			exist: 0
+			E R A: 0
+			code value: 0X0
+			IC addr : 0
+--------------------------
+CPU instruction item:
+	start_addr: 113
+	cmd_name: inc
+	label_name: (null)
+	size_in_words: 2
+	is_valid: 1
+	Status:
+		cmd_label_found: 0
+		params_num: 1
+		no_params_found: 0
+		param1_found: 0
+		param2_found: 1
+		dest_addresing: 1
+		src_addresing: 0
+		opcode: 7
+	Param1:
+		param1 is not defined 
+	Param2:
+		param_is_label: 1
+		label_name: K
+		label_addr: -5
+		label_addr_defined: 0
+		label_length_valid: 1
+		label_param_syntax_valid: 1
+	Code data:
+		 code word 1: 
+			exist: 1
+			E R A: 0
+			code value: 0X1C4
+			IC addr : 113
+		 code word 2: 
+			exist: 1
+			E R A: 2
+			code value: 0X212
+			IC addr : 114
+		 code word 3: 
+			exist: 0
+			E R A: 0
+			 code value: 0X0
+			 IC addr : 0
+		 code word 4: 
+			exist: 0
+			E R A: 0
+			code value: 0X0
+			IC addr : 0
+		 code word 5: 
+			exist: 0
+			E R A: 0
+			code value: 0X0
+			IC addr : 0
+--------------------------
+CPU instruction item:
+	start_addr: 115
+	cmd_name: mov
+	label_name: (null)
+	size_in_words: 4
+	is_valid: 1
+	Status:
+		cmd_label_found: 0
+		params_num: 2
+		no_params_found: 0
+		param1_found: 1
+		param2_found: 1
+		dest_addresing: 3
+		src_addresing: 2
+		opcode: 0
+	Param1:
+		param_is_matrx: 1
+		mat_label: M1
+		reg1_num: 3
+		reg2_num: 3
+		mat_label_defined: 1
+		mat_label_syntax_valid: 1
+		brackets_valid: 1
+		reg1_name_valid: 1
+		reg2_name_valid: 1
+	Param2:
+		param_is_reg_name: 1
+		reg_num: 3
+		reg_num_is_valid: 1
+		reg_syntax_is_valid: 1
+	Code data:
+		 code word 1: 
+			exist: 1
+			E R A: 0
+			code value: 0X2C
+			IC addr : 115
+		 code word 2: 
+			exist: 1
+			E R A: 2
+			code value: 0X216
+			IC addr : 116
+		 code word 3: 
+			exist: 1
+			E R A: 0
+			 code value: 0XCC
+			 IC addr : 117
+		 code word 4: 
+			exist: 1
+			E R A: 0
+			code value: 0XC0
+			IC addr : 118
+		 code word 5: 
+			exist: 0
+			E R A: 0
+			code value: 0X0
+			IC addr : 0
+--------------------------
+CPU instruction item:
+	start_addr: 119
+	cmd_name: bne
+	label_name: (null)
+	size_in_words: 2
+	is_valid: 1
+	Status:
+		cmd_label_found: 0
+		params_num: 1
+		no_params_found: 0
+		param1_found: 0
+		param2_found: 1
+		dest_addresing: 1
+		src_addresing: 0
+		opcode: 10
+	Param1:
+		param1 is not defined 
+	Param2:
+		param_is_label: 1
+		label_name: L3
+		label_addr: -5
+		label_addr_defined: 0
+		label_length_valid: 1
+		label_param_syntax_valid: 1
+	Code data:
+		 code word 1: 
+			exist: 1
+			E R A: 0
+			code value: 0X284
+			IC addr : 119
+		 code word 2: 
+			exist: 1
+			E R A: 2
+			code value: 0X2
+			IC addr : 120
+		 code word 3: 
+			exist: 0
+			E R A: 0
+			 code value: 0X0
+			 IC addr : 0
+		 code word 4: 
+			exist: 0
+			E R A: 0
+			code value: 0X0
+			IC addr : 0
+		 code word 5: 
+			exist: 0
+			E R A: 0
+			code value: 0X0
+			IC addr : 0
+--------------------------
+CPU instruction item:
+	start_addr: 121
+	cmd_name: stop
+	label_name: END
+	size_in_words: 1
+	is_valid: 1
+	Status:
+		cmd_label_found: 1
+		params_num: 0
+		no_params_found: 0
+		param1_found: 0
+		param2_found: 0
+		dest_addresing: 0
+		src_addresing: 0
+		opcode: 15
+	Param1:
+		param1 is not defined 
+	Param2:
+		param2 is not defined 
+	Code data:
+		 code word 1: 
+			exist: 0
+			E R A: 0
+			code value: 0X0
+			IC addr : 0
+		 code word 2: 
+			exist: 0
+			E R A: 0
+			code value: 0X0
+			IC addr : 0
+		 code word 3: 
+			exist: 0
+			E R A: 0
+			 code value: 0X0
+			 IC addr : 0
+		 code word 4: 
+			exist: 0
+			E R A: 0
+			code value: 0X0
+			IC addr : 0
+		 code word 5: 
+			exist: 0
+			E R A: 0
+			code value: 0X0
+			IC addr : 0
+
+
+------------ PRINT DATA ITEMS -----------------
+
+CPU data item : 
+	start addr: 122
+	size in words: 7
+	directive name: .string
+	label name : STR
+	flags : 
+		is_data_dot_directive : 0
+		is_str_dot_directive: 1
+		is_mat_dot_directive: 0
+		is_valid_directive: 1
+		err_has_invalid_label: 0
+		err_has_no_operands: 0
+		error_in_parameters: 0
+ 	data payload values: 
+		97 98 99 100 101 102 0 
+CPU data item : 
+	start addr: 129
+	size in words: 3
+	directive name: .data
+	label name : LENGTH
+	flags : 
+		is_data_dot_directive : 1
+		is_str_dot_directive: 0
+		is_mat_dot_directive: 0
+		is_valid_directive: 1
+		err_has_invalid_label: 0
+		err_has_no_operands: 0
+		error_in_parameters: 0
+ 	data payload values: 
+		6 -9 15 
+CPU data item : 
+	start addr: 132
+	size in words: 1
+	directive name: .data
+	label name : K
+	flags : 
+		is_data_dot_directive : 1
+		is_str_dot_directive: 0
+		is_mat_dot_directive: 0
+		is_valid_directive: 1
+		err_has_invalid_label: 0
+		err_has_no_operands: 0
+		error_in_parameters: 0
+ 	data payload values: 
+		22 
+CPU data item : 
+	start addr: 133
+	size in words: 4
+	directive name: .mat
+	label name : M1
+	flags : 
+		is_data_dot_directive : 0
+		is_str_dot_directive: 0
+		is_mat_dot_directive: 1
+		is_valid_directive: 1
+		err_has_invalid_label: 0
+		err_has_no_operands: 0
+		error_in_parameters: 0
+ 	data payload values: 
+		1 2 3 4 
+
+----------- PRINT LABELS TABLE -----------------
+label table node data:
+	label_name: END
+	label_address: 121
+	points_to_cpu_cmd: 1
+	is_cpu_cmd_param: 0
+	points_to_data: 0
+	points_to_str: 0
+	points_to_mat: 0
+	is_extrn: 0
+	is_entry: 0
+label table node data:
+	label_name: K
+	label_address: 132
+	points_to_cpu_cmd: 0
+	is_cpu_cmd_param: 1
+	points_to_data: 1
+	points_to_str: 0
+	points_to_mat: 0
+	is_extrn: 0
+	is_entry: 0
+label table node data:
+	label_name: L3
+	label_address: -5
+	points_to_cpu_cmd: 0
+	is_cpu_cmd_param: 1
+	points_to_data: 0
+	points_to_str: 0
+	points_to_mat: 0
+	is_extrn: 1
+	is_entry: 0
+label table node data:
+	label_name: LENGTH
+	label_address: 129
+	points_to_cpu_cmd: 0
+	is_cpu_cmd_param: 0
+	points_to_data: 1
+	points_to_str: 0
+	points_to_mat: 0
+	is_extrn: 0
+	is_entry: 1
+label table node data:
+	label_name: LOOP
+	label_address: 107
+	points_to_cpu_cmd: 1
+	is_cpu_cmd_param: 0
+	points_to_data: 0
+	points_to_str: 0
+	points_to_mat: 0
+	is_extrn: 0
+	is_entry: 1
+label table node data:
+	label_name: M1
+	label_address: 133
+	points_to_cpu_cmd: 0
+	is_cpu_cmd_param: 0
+	points_to_data: 0
+	points_to_str: 0
+	points_to_mat: 1
+	is_extrn: 0
+	is_entry: 0
+label table node data:
+	label_name: MAIN
+	label_address: 100
+	points_to_cpu_cmd: 1
+	is_cpu_cmd_param: 0
+	points_to_data: 0
+	points_to_str: 0
+	points_to_mat: 0
+	is_extrn: 0
+	is_entry: 0
+label table node data:
+	label_name: STR
+	label_address: 122
+	points_to_cpu_cmd: 0
+	is_cpu_cmd_param: 1
+	points_to_data: 0
+	points_to_str: 1
+	points_to_mat: 0
+	is_extrn: 0
+	is_entry: 0
+label table node data:
+	label_name: W
+	label_address: -5
+	points_to_cpu_cmd: 0
+	is_cpu_cmd_param: 1
+	points_to_data: 0
+	points_to_str: 0
+	points_to_mat: 0
+	is_extrn: 1
+	is_entry: 0

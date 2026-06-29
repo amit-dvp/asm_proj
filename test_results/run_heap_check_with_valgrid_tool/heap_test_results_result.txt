@@ -1,0 +1,87 @@
+---------------------------------------------------
+ Processing 1.as file (parameter number: 1)
+---------------------------------------------------
+
+---------------------------------------
+Pre-assembler:
+	1-st scan is running.
+	Scan for errors in <1.as> file.
+Error: can not open 1.as file in read mode.
+Exitting...
+
+- Contents of /proc/version:
+--9322--   Linux version 4.4.0-21-generic (buildd@lgw01-06) (gcc version 5.3.1 20160413 (Ubuntu 5.3.1-14ubuntu2) ) #37-Ubuntu SMP Mon Apr 18 18:34:49 UTC 2016
+--9322-- 
+--9322-- Arch and hwcaps: X86, LittleEndian, x86-mmxext-sse1-sse2-sse3-lzcnt
+--9322-- Page sizes: currently 4096, max supported 4096
+--9322-- Valgrind library directory: /usr/lib/valgrind
+--9322-- Reading syms from /lib/i386-linux-gnu/ld-2.23.so
+--9322--   Considering /lib/i386-linux-gnu/ld-2.23.so ..
+--9322--   .. CRC mismatch (computed fe524f15 wanted dd32455a)
+--9322--   Considering /usr/lib/debug/lib/i386-linux-gnu/ld-2.23.so ..
+--9322--   .. CRC is valid
+--9322-- Reading syms from /home/user/Amit/c_code/assembler/assembler
+--9322-- Reading syms from /usr/lib/valgrind/memcheck-x86-linux
+--9322--   Considering /usr/lib/valgrind/memcheck-x86-linux ..
+--9322--   .. CRC mismatch (computed 6036da3f wanted 652e483f)
+--9322--    object doesn't have a symbol table
+--9322--    object doesn't have a dynamic symbol table
+--9322-- Scheduler: using generic scheduler lock implementation.
+--9322-- Reading suppressions file: /usr/lib/valgrind/default.supp
+==9322== embedded gdbserver: reading from /tmp/vgdb-pipe-from-vgdb-to-9322-by-user-on-???
+==9322== embedded gdbserver: writing to   /tmp/vgdb-pipe-to-vgdb-from-9322-by-user-on-???
+==9322== embedded gdbserver: shared mem   /tmp/vgdb-pipe-shared-mem-vgdb-9322-by-user-on-???
+==9322== 
+==9322== TO CONTROL THIS PROCESS USING vgdb (which you probably
+==9322== don't want to do, unless you know exactly what you're doing,
+==9322== or are doing some strange experiment):
+==9322==   /usr/lib/valgrind/../../bin/vgdb --pid=9322 ...command...
+==9322== 
+==9322== TO DEBUG THIS PROCESS USING GDB: start GDB like this
+==9322==   /path/to/gdb ./assembler
+==9322== and then give GDB the following command
+==9322==   target remote | /usr/lib/valgrind/../../bin/vgdb --pid=9322
+==9322== --pid is optional if only one valgrind process is running
+==9322== 
+--9322-- REDIR: 0x4019030 (ld-linux.so.2:strlen) redirected to 0x380490f2 (???)
+--9322-- REDIR: 0x4018df0 (ld-linux.so.2:index) redirected to 0x380490cd (???)
+--9322-- Reading syms from /usr/lib/valgrind/vgpreload_core-x86-linux.so
+--9322--   Considering /usr/lib/valgrind/vgpreload_core-x86-linux.so ..
+--9322--   .. CRC mismatch (computed 5b95c0c4 wanted 39e79efa)
+--9322--    object doesn't have a symbol table
+--9322-- Reading syms from /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so
+--9322--   Considering /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so ..
+--9322--   .. CRC mismatch (computed 4d5a1526 wanted 33571d5b)
+--9322--    object doesn't have a symbol table
+==9322== WARNING: new redirection conflicts with existing -- ignoring it
+--9322--     old: 0x04019030 (strlen              ) R-> (0000.0) 0x380490f2 ???
+--9322--     new: 0x04019030 (strlen              ) R-> (2007.0) 0x0402f410 strlen
+--9322-- Reading syms from /lib/i386-linux-gnu/libc-2.23.so
+--9322--   Considering /lib/i386-linux-gnu/libc-2.23.so ..
+--9322--   .. CRC mismatch (computed ec440dd2 wanted cfe469e8)
+--9322--   Considering /usr/lib/debug/lib/i386-linux-gnu/libc-2.23.so ..
+--9322--   .. CRC is valid
+--9322-- REDIR: 0x40c6590 (libc.so.6:strncasecmp) redirected to 0x4026560 (_vgnU_ifunc_wrapper)
+--9322-- REDIR: 0x40cd220 (libc.so.6:memrchr) redirected to 0x4026560 (_vgnU_ifunc_wrapper)
+--9322-- REDIR: 0x40dfc00 (libc.so.6:wcslen) redirected to 0x4026560 (_vgnU_ifunc_wrapper)
+--9322-- REDIR: 0x40c48c0 (libc.so.6:__GI_strrchr) redirected to 0x402ee00 (__GI_strrchr)
+--9322-- REDIR: 0x40bffc0 (libc.so.6:malloc) redirected to 0x402c110 (malloc)
+--9322-- REDIR: 0x40c4830 (libc.so.6:strncpy) redirected to 0x4026560 (_vgnU_ifunc_wrapper)
+--9322-- REDIR: 0x40ceea0 (libc.so.6:__strncpy_ssse3) redirected to 0x402f5f0 (strncpy)
+--9322-- REDIR: 0x40c47e0 (libc.so.6:strncmp) redirected to 0x4026560 (_vgnU_ifunc_wrapper)
+--9322-- REDIR: 0x41846f0 (libc.so.6:__strncmp_ssse3) redirected to 0x402fab0 (strncmp)
+--9322-- REDIR: 0x40c4790 (libc.so.6:strncat) redirected to 0x4026560 (_vgnU_ifunc_wrapper)
+--9322-- REDIR: 0x40daf10 (libc.so.6:__strncat_ssse3) redirected to 0x402f1f0 (strncat)
+--9322-- REDIR: 0x40c46a0 (libc.so.6:__GI_strlen) redirected to 0x402f390 (__GI_strlen)
+--9322-- REDIR: 0x40c61b0 (libc.so.6:__GI_mempcpy) redirected to 0x40332c0 (__GI_mempcpy)
+--9322-- REDIR: 0x40c8360 (libc.so.6:strchrnul) redirected to 0x40330b0 (strchrnul)
+--9322-- REDIR: 0x40c0530 (libc.so.6:free) redirected to 0x402d2f0 (free)
+==9322== 
+==9322== HEAP SUMMARY:
+==9322==     in use at exit: 0 bytes in 0 blocks
+==9322==   total heap usage: 465 allocs, 465 frees, 32,219 bytes allocated
+==9322== 
+==9322== All heap blocks were freed -- no leaks are possible
+==9322== 
+==9322== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==9322== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

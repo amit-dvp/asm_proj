@@ -1,0 +1,171 @@
+---------------------------------------------------
+ Processing in_out_files/a_file1.as file (parameter number: 1)
+---------------------------------------------------
+
+---------------------------------------
+Pre-assembler:
+	1-st scan is running.
+	Scan for errors in <in_out_files/a_file1.as> file.
+Pre-assembler:
+	1-st scan is finished.
+	no errors found in <in_out_files/a_file1.as> file.
+---------------------------------------
+Pre-assembler:
+	2-nd scan stage is runnung.
+	prepare <in_out_files/a_file1.am> file...
+Pre-assembler:
+	2-nd scan is finished.
+	File <in_out_files/a_file1.am> generated.
+---------------------------------------
+Pre-assembler:
+	task is finished.
+---------------------------------------
+
+---------------------------------------
+ Assembler:
+	1-st stage is running.
+	Scan for errors in <in_out_files/a_file1.am> file.
+---------------------------------------
+----------------------------------------------------------
+1-st assembler stage run is finished.
+	No errors found in <in_out_files/a_file1.am> file.
+
+	Program size............37 
+	Instr. memory size......22 
+	Data memory size........15 
+	Start memory address....100 
+	Last memory address.....136 
+----------------------------------------------------------
+
+---------------------------------------
+ Assembler:
+	2-nd stage is running.
+	Prepare <in_out_files/a_file1.ob> file.
+---------------------------------------
+
+----------------------------------------------------------
+ 2-nd assembler stage run is finished.
+ Files  in_out_files/a_file1.ext , in_out_files/a_file1.ent , in_out_files/a_file1.ob were prepared.
+----------------------------------------------------------
+
+
+
+
+---------------------------------------------------
+ Processing in_out_files/a_file2.as file (parameter number: 2)
+---------------------------------------------------
+
+---------------------------------------
+Pre-assembler:
+	1-st scan is running.
+	Scan for errors in <in_out_files/a_file2.as> file.
+Pre-assembler:
+	1-st scan is finished.
+	no errors found in <in_out_files/a_file2.as> file.
+---------------------------------------
+Pre-assembler:
+	2-nd scan stage is runnung.
+	prepare <in_out_files/a_file2.am> file...
+Pre-assembler:
+	2-nd scan is finished.
+	File <in_out_files/a_file2.am> generated.
+---------------------------------------
+Pre-assembler:
+	task is finished.
+---------------------------------------
+
+---------------------------------------
+ Assembler:
+	1-st stage is running.
+	Scan for errors in <in_out_files/a_file2.am> file.
+---------------------------------------
+Error in line 1:
+	syntax problem in 2nd command parameter : 
+	|MAIN: mov M1[r2][r7],LENGTH ,|
+
+Error in line 2:
+	label's name differs from macro/keyword, 
+	but does not ends with ':' : 
+	| adding r2,STR |
+
+Error in line 12:
+	.data directive: parameter value must be within 10 bit limits -512 ... 511 : 
+	| 225809 |
+
+Error in line 13:
+	.mat directive: internal ']' does not close to internal '[' : 
+	| [2] [2]    1,2,3,4|
+
+Error in line 15:
+	label alone, the label ends with ':', 
+	but no command found : 
+	|sdsd|
+
+Error: the label [K] appears as command parameter 
+	but its value is not defined. It must be defined
+	as CPU command label or .data or .string 
+	or .mat label or external label.
+
+Error: the same label [STR] is defined several times:
+	> as abel of .string directive
+	> as external label 
+
+----------------------------------------------------------
+1-st assembler stage run is finished.
+	Found 7 errors,
+	Files generation for file <in_out_files/a_file2.am> is stopped. 
+	Please correct the input file <in_out_files/a_file2.as>.
+----------------------------------------------------------
+---------------------------------------------------
+ Processing in_out_files/a_file3.as file (parameter number: 3)
+---------------------------------------------------
+
+---------------------------------------
+Pre-assembler:
+	1-st scan is running.
+	Scan for errors in <in_out_files/a_file3.as> file.
+Pre-assembler:
+	1-st scan is finished.
+	no errors found in <in_out_files/a_file3.as> file.
+---------------------------------------
+Pre-assembler:
+	2-nd scan stage is runnung.
+	prepare <in_out_files/a_file3.am> file...
+Pre-assembler:
+	2-nd scan is finished.
+	File <in_out_files/a_file3.am> generated.
+---------------------------------------
+Pre-assembler:
+	task is finished.
+---------------------------------------
+
+---------------------------------------
+ Assembler:
+	1-st stage is running.
+	Scan for errors in <in_out_files/a_file3.am> file.
+---------------------------------------
+----------------------------------------------------------
+1-st assembler stage run is finished.
+	No errors found in <in_out_files/a_file3.am> file.
+
+	Program size............37 
+	Instr. memory size......22 
+	Data memory size........15 
+	Start memory address....100 
+	Last memory address.....136 
+----------------------------------------------------------
+
+---------------------------------------
+ Assembler:
+	2-nd stage is running.
+	Prepare <in_out_files/a_file3.ob> file.
+---------------------------------------
+
+----------------------------------------------------------
+ 2-nd assembler stage run is finished.
+ Files  in_out_files/a_file3.ext , in_out_files/a_file3.ent , in_out_files/a_file3.ob were prepared.
+----------------------------------------------------------
+
+
+
+

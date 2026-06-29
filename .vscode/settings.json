@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "item.h": "c",
+        "assembler.h": "c",
+        "stdlib.h": "c",
+        "cmd_line_analyse.h": "c",
+        "mngr_errors_types.h": "c",
+        "consts.h": "c"
+    },
+    "makefile.configureOnOpen": true
+}

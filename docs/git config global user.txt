@@ -1,0 +1,36 @@
+In current directory:
+
+git config --global user.name “A S”
+git config --global user.email l@gmail.com
+
+git init
+
+
+add trusted directory (because it is shared):
+
+
+check status of directory : 
+git status
+
+Run this inside your project folder:
+
+Code
+git add .
+This stages everything in the current directory and subdirectories.
+
+git commit -m "the first maman1 version"
+
+See what will be committed
+Code
+git status
+
+See what changed
+Code
+git diff
+
+View commit history
+Code
+git log --oneline --graph
+
+Revert to last commit : 
+git reset --hard HEAD

@@ -1,0 +1,24 @@
+chmod +x ./Dockerfile  
+
+# check ubuntu version : 
+lsb_release -a 
+
+docker build -t asm_image .
+
+
+docker run -it asm_image
+
+
+# run program within container : 
+./assembler in_out_files/a_file1 in_out_files/a_file2 in_out_files/a_file3
+
+# to get out of container: 
+exit
+
+# to remove docker image: 
+docker rmi -f asm_image
+
+
+
+
+

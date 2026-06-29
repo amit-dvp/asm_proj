@@ -7,14 +7,19 @@ ADD . /assembly
 RUN apt-get update
 RUN apt-get install -y lsb-release
 RUN apt-get install build-essential -y
-#RUN apt-get install gcc
-#RUN apt-get install gdb
-#RUN apt-get install make
+RUN apt-get install gcc -y
+RUN apt-get install gdb -y
+RUN apt-get install make -y
 
+# Valgrind is a runtime analysis framework 
+# that runs your program in a special instrumented 
+# environment. It watches every memory access, 
+# allocation, and deallocation.
+
+RUN apt-get install -y valgrind -y
 
 
 WORKDIR /assembly
 
 
 CMD ["/bin/bash"]
-

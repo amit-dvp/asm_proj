@@ -34,3 +34,12 @@ git log --oneline --graph
 
 Revert to last commit : 
 git reset --hard HEAD
+
+git remote add origin https://github.com/amit-dvp/asm_proj
+
+To verify it was added correctly : 
+
+git remote -v
+
+Add updated files : 
+git push -u origin master

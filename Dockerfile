@@ -4,17 +4,12 @@ FROM i386/ubuntu:16.04
 # add all from local directory
 ADD . /assembly
 
-#RUN dpkg --add-architecture i386 && \
-#    apt-get update && apt-get install -y \
-#    build-essential &&\
-#    gcc &&\
-#    gdb &&\
-#    make &&\
-#    git &&\
-#    vim &&\
-#    python &&\
-#    curl &&\
-#    wget &&
+RUN apt-get update
+RUN apt-get install -y lsb-release
+RUN apt-get install build-essential -y
+#RUN apt-get install gcc
+#RUN apt-get install gdb
+#RUN apt-get install make
 
 WORKDIR /assembly
 

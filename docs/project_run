@@ -12,6 +12,10 @@ docker run -it asm_image
 # run program within container : 
 ./assembler in_out_files/a_file1 in_out_files/a_file2 in_out_files/a_file3
 
+
+# run with valgrind checker : 
+valgrind --leak-check=full ./assembler in_out_files/a_file1 in_out_files/a_file2 in_out_files/a_file3
+
 # to get out of container: 
 exit
 
